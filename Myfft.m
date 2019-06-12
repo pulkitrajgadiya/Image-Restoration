@@ -25,7 +25,7 @@ elseif size_M >=M  && size_N >= N
     %finally pad zero to the image
     image=[image_input,image2;image3];
 else 
-    disp('some error is there!!');
+    disp('There is some error');
 end
 
 %Resize input image parameters

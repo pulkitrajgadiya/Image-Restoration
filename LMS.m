@@ -3,6 +3,7 @@ function deblurred_image=LMS(kernel_fft,orig_image_fft,gamma)
 [m, n, z]=size(orig_image_fft);
 
 %initialize the estimate of Image
+%
 F=ones(m,n,z);
 deblurred_image=ones(m,n,z);
 %Laplacian operator matrix
