@@ -16,7 +16,7 @@ for i = 1:M
         butter_filt(i,j)= 1./(1 + (D/d0)^(2*order));
     end
 end
-% Initialize all the required matrices to speed up the process
+% Initialize all the required matrices to speed up the process not ness.
 fftI=ones(M,N,z);
 filtered_image_fft=ones(M,N,z);
 filtered_image=ones(M,N,z);
